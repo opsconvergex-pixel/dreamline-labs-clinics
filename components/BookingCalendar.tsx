@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 export default function BookingCalendar({
-  calLink = "dreamlinelabs/dtc-business-scaling-call",
-  note = "Free, 30 minutes. For brands doing at least ₹5L a month.",
+  calLink = "dreamlinelabs/clinic-growth-call",
+  note = "Free, 30 minutes. For aesthetic and med-spa clinics.",
   theme = "dark",
 }: {
   calLink?: string;
