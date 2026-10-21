@@ -52,13 +52,6 @@ export default function Home() {
             <h1 className="cl-h1">
               Get <em>75–100 Treatment-Ready Patient Appointments</em> Every Month — Or You Don't Pay
             </h1>
-            <p className="cl-lead">
-              If you're tired of depending on referrals, walk-ins, social media marketing, and inconsistent
-              lead flow, we'll implement our <strong>Patient Flow System</strong> into your clinic. It is a
-              100% done-for-you system where we run your ads, reply to every lead within minutes, get them
-              booked, make sure they show up, and track every patient to revenue.
-            </p>
-
             {VSL.embedUrl && (
               <div className="cl-vsl">
                 <div className="cl-vsl-frame">
@@ -66,6 +59,14 @@ export default function Home() {
                 </div>
               </div>
             )}
+
+            <div className="cl-intro">
+              <p className="cl-intro-1">Tired of depending on referrals, walk-ins and inconsistent lead flow?</p>
+              <p className="cl-intro-2">
+                Our 100% done-for-you <strong>Patient Flow System</strong> runs your ads, replies to every lead
+                within minutes, gets them booked and showing up, and tracks every patient to revenue.
+              </p>
+            </div>
 
             <div className="cl-cta" id="hero-cta">
               <a href="#book" className="cl-btn">
@@ -155,6 +156,12 @@ export default function Home() {
                 </div>
               ))}
             </div>
+            <div className="cl-ctaband">
+              <a href="#book" className="cl-btn">
+                {CTA} →
+              </a>
+              <p className="cl-micro">See how this would work for your clinic. Free, 30 minutes.</p>
+            </div>
           </div>
         </section>
 
@@ -202,6 +209,12 @@ export default function Home() {
                   ))}
                 </ul>
               </div>
+            </div>
+            <div className="cl-ctaband">
+              <a href="#book" className="cl-btn">
+                {CTA} →
+              </a>
+              <p className="cl-micro">Find out if your clinic qualifies. Free, 30 minutes.</p>
             </div>
           </div>
         </section>
@@ -257,7 +270,7 @@ export default function Home() {
                 <h2 className="cl-h2">Nitesh Jaiswal, Founder of Dreamline Labs</h2>
                 <p className="cl-sub">{founderNote}</p>
                 <p className="cl-sub">
-                  The Patient Flow System is our first program built for aesthetic and med-spa clinics, so we
+                  The Patient Flow System is our first programme built for aesthetic and med-spa clinics, so we
                   don't show clinic case studies yet and we won't make any up. You'll see every number in
                   your own weekly report.
                 </p>

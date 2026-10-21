@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import "./clinic.css";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 const GTM_ID = "GTM-NWWGKQ3Q";
 
@@ -48,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {children}
-        <WhatsAppButton />
       </body>
     </html>
   );

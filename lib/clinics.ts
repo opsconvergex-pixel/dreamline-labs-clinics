@@ -11,7 +11,7 @@ export const VSL = {
 };
 
 export const stats = [
-  { n: "₹20Cr+", sub: "over $2M", l: "Ad Spend Managed" },
+  { n: "$2M+", sub: "₹20Cr+", l: "Ad Spend Managed" },
   { n: "30,000+", sub: "", l: "Appointments Generated" },
   { n: "8+", sub: "", l: "Years Experience" },
 ];
@@ -44,7 +44,7 @@ export const clinicSteps = [
   {
     n: "02",
     title: "A page built to book",
-    body: "A fast landing page with your reviews, provider bios and answers to the common questions, so people can book a consultation in two taps.",
+    body: "A fast landing page with your reviews, provider bios and answers to the common questions, so people can book an appointment in two taps.",
   },
   {
     n: "03",
@@ -80,7 +80,7 @@ export const bonuses = [
     value: "$1,500",
   },
   {
-    title: "The Consult-to-Treatment Playbook",
+    title: "The Appointment-to-Treatment Playbook",
     body: "A script, answers to common objections, recorded training for your team and one live session.",
     value: "$1,000",
   },
@@ -121,7 +121,7 @@ export const clinicFit = [
   "You run an aesthetic or med-spa clinic",
   "You already advertise, or are ready to invest seriously in ads",
   "You want more new patients, not just more leads",
-  "Your team can handle more consultations and will follow up fast",
+  "Your team can handle more appointments and will follow up fast",
 ];
 
 export const clinicNotFit = [
@@ -162,7 +162,7 @@ export const clinicFaqs = [
   },
   {
     q: "Do you have clinic case studies?",
-    a: "Not yet, and we won't invent any. This is our first program built for aesthetic and med-spa clinics. What we do have is a track record of running paid ads at scale for 30+ brands. We only take on clinics we believe we can deliver for, and we'll tell you honestly on the call if we can't.",
+    a: "Not yet, and we won't invent any. This is our first programme built for aesthetic and med-spa clinics. What we do have is a track record of running paid ads at scale for 30+ brands. We only take on clinics we believe we can deliver for, and we'll tell you honestly on the call if we can't.",
   },
 ];
 

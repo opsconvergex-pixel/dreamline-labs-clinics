@@ -29,7 +29,7 @@ const steps = [
 ] as const;
 
 const ready = [
-  "Your new-patient leads and booked consultations for the last 90 days",
+  "Your new-patient leads and booked appointments for the last 90 days",
   "Your monthly ad spend and where it goes (Meta, Google, other)",
   "Your show-up rate and average value of a new patient, if you know them",
   "Your top 3 treatments by revenue",
