@@ -344,7 +344,6 @@ export default function Home() {
             <div className="cl-cal-card">
               <BookingCalendar
                 calLink={SITE.clinicCalLink}
-                theme="light"
                 note="Free, 30 minutes. For aesthetic and med-spa clinics."
               />
             </div>
