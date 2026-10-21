@@ -17,8 +17,8 @@ html {
 }
 body {
   margin: 0;
-  background: #fbf8f4;
-  color: #1e2a2f;
+  background: #f7f9fd;
+  color: #16213a;
   font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 :focus-visible {
-  outline: 2px solid #0f6b66;
+  outline: 2px solid #0b2e9b;
   outline-offset: 3px;
 }
 
