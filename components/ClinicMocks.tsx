@@ -12,7 +12,7 @@ export function ChatMock() {
         </div>
         <div className="cl-chat">
           <p className="cl-time">Sunday 9:47 PM</p>
-          <div className="cl-msg cl-in">Hi, I saw your ad. Do you have anything this week for a consultation?</div>
+          <div className="cl-msg cl-in">Hi, I saw your ad. Do you have anything this week for an appointment?</div>
           <div className="cl-msg cl-out">
             Hi! Thanks for reaching out. Yes, we can fit you in. Two times are open: Thursday 4:30 PM or
             Friday 11:00 AM. Which works better?

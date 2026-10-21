@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import "./clinic.css";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 const GTM_ID = "GTM-NWWGKQ3Q";
 
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#fbf8f4",
+  themeColor: "#f7f9fd",
   width: "device-width",
   initialScale: 1,
 };
@@ -48,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {children}
-        <WhatsAppButton />
       </body>
     </html>
   );
